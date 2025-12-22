@@ -59,13 +59,13 @@ javac Main.java
 java Main
 ```
 
-## 💡Usage
+## Usage
 1. Launch the application
 2. Select a Wikipedia article from the dropdown menu
 3. Click "Find similar pages"
 4. View the top 2 most similar articles with their similarity scores
 
-## 📈 Algorithm Details
+##  Algorithm Details
 ### TF-IDF Formula
 - **TF (Term Frequency)**: `wordCount / totalWords`
 - **IDF (Inverse Document Frequency)**: `log(totalDocs / docsContainingTerm)`
